@@ -1,0 +1,174 @@
+/* ........................heroImg section.................. */
+
+.heroImg{
+	padding:70px 0 100px;
+}
+
+/* .header .row >:first-child{ */
+	/* padding-left:0; */
+/* } */
+
+/* .header .row >:last-child{ */
+	/* padding-right:0; */
+/* } */
+
+.navbar ul >:last-child a{
+	padding-right:15px;
+}
+
+.logo{
+	text-decoration:none;
+	font-family: 'Inconsolata', monospace;
+	color:#000000;
+	font-size:30px;
+	text-transform:uppercase;
+}
+
+.navbar li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#626262;
+	font-size:14px;
+	height:35px;
+	margin-left:60px;
+	padding:10px 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+.navbar li a:hover,
+.navbar li a:focus,
+.navbar li a:active{
+	background-color:#D3D3D3;
+}
+
+.img{
+	width:100%;
+}
+
+
+/* ........................photodiary section.................. */
+
+.sectionlabel{
+	font-size:14px;
+	color:#b4ad9e;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.sec-heading{
+	font-size:30px;
+	color:#626262;
+	margin-bottom:35px;
+	font-family: 'Playfair Display', serif;
+}
+
+.para{
+	font-size:14px;
+	color:#626262;
+	text-align:justify;
+	line-height:1.5;
+	margin-bottom:50px;
+	font-family: 'Playfair Display', serif;
+}
+
+.photo-icon{
+	cursor:pointer;
+	padding:0 10px;
+}
+
+/* ........................thumbnail section.................. */
+
+.thumbnail-section{
+	padding:105px 0 0;
+}
+
+.thumbnail .image{
+	margin-bottom:30px;
+}
+
+.thumbnail-section .thumbnail >:last-child{
+	margin-bottom:120px;
+}
+
+
+/* ........................newsletter section.................. */
+
+.newsletter{
+	padding:70px 0;
+	background-color:#f0f0f0;
+}
+
+.signup{
+	width:100%;
+	border:0;
+	border-bottom:1px solid #000000;
+	outline:none;
+	background-color:transparent;
+	height:30px;
+	padding:0 7px;
+}
+
+.signup::placeholder{
+	font-size:14px;
+	color:#626262;
+}
+
+.signupcontrol{
+	position:relative;
+	margin-top:85px;
+}
+
+.signupcontrol i{
+	position:absolute;
+	right:10px;
+}
+
+.font-icon{
+	font-size:20px;
+}
+
+
+/* ........................photodiary-2 section.................. */
+
+.photodiary-2{
+	padding:100px 0 70px;
+}
+
+.button{
+	margin-top:40px;
+}
+
+.btn{
+	width:160px;
+	height:60px;
+	cursor:pointer;
+	background-color:#ffffff;
+	border:1px solid #626262;
+	font-size:20px;
+	color:#626262;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active{
+	background-color:#DCDCDC;
+}
+
+
+/*-----------------------------footer section-----------------------------*/
+
+.footer{
+	padding:40px 0;
+	background-color:#f0f0f0;
+}
+
+.footerlink li a{
+	color:#000000;
+	text-decoration:none;
+	padding-left:20px;
+}
+
+.footer .footerlink >:first-child a{
+	padding-left:0;
+}
